@@ -1,7 +1,18 @@
-# Carrito de compras con PHP y MySQL
-[![Tienda de productos - Mostrar botón para agregar o quitar del carrito de compras](https://parzibyte.me/blog/wp-content/uploads/2021/01/Tienda-de-productos-Mostrar-boton-para-agregar-o-quitar-del-carrito-de-compras.png)](https://parzibyte.me/blog/wp-content/uploads/2021/01/Tienda-de-productos-Mostrar-boton-para-agregar-o-quitar-del-carrito-de-compras.png)
+# carrito
 
-Tienda de productos – Mostrar botón para agregar o quitar del carrito de compras
+// Readme
 
-## Tutorial:
-https://parzibyte.me/blog/2021/01/13/carrito-compras-php-mysql/
+Para crear los contenedores: 
+- `docker compose up -d`
+
+Abre phpmyadmin en [http://127.0.0.1:8000](http://127.0.0.1:8000)
+- usuario: root , contraseña: test, como puedes comprobar en el fichero (./docker-compose.yml)
+
+Mira el ejemplo completo de funcionamiento en [http://127.0.0.1:80](http://127.0.0.1:80)
+
+Para ejecutar un cliente de MySQL t:
+
+- `docker-compose exec db mysql -u root -p` 
+
+Infrastructure as code!
+
